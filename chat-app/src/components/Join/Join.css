@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.JoinPage{
+    background-color: rgb(31,29,29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JoinContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.JoinContainer > img{
+    width: 10vmax;
+}
+
+.JoinContainer > h1{
+    color: white;
+    font-size: 2.5vmax;
+    width: 25vmax;
+    border-bottom: 0.2vmax solid white;
+    text-align: center;
+    padding: 1vmax;
+    font-family: "Roboto" ;
+}
+
+#joinInput{
+     width: 25vmax;
+     padding: 1.5vmax;
+     border: none;
+     outline: none;
+     font-size: 1.2vmax;
+     margin: 2vmax;
+}
+
+.joinBtn{
+    background-color: crimson;
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 2vmax;
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+}
+.joinBtn:hover{
+    background-color: rgb(168, 15, 45);
+}

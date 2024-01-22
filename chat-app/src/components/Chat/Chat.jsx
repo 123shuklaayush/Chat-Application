@@ -6,7 +6,7 @@ import sendLogo from "../../images/send.png";
 import Message from "../Message/Message";
 import ReactScrollToBottom from "react-scroll-to-bottom";
 let socket;
-const ENDPOINT = "http://localhost:3000/";
+const ENDPOINT = "https://chat-app-gtf3.onrender.com";
 
 const Chat = () => {
   const [id, setId] = useState("");
